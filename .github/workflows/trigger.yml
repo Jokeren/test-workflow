@@ -1,0 +1,13 @@
+name: trigger
+on:
+  workflow_run:
+    workflows: ["test"]
+    types: [completed]
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: first
+    - run: |
+        echo "I'm triggered"
