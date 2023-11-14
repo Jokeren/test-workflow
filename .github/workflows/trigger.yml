@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: first
-    - run: |
-        echo "I'm triggered"
+      - name: first
+      - run: |
+          echo "I'm triggered"
