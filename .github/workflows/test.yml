@@ -6,8 +6,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-    - name: first
-    - run: |
-        echo "I'm running"
+      - name: first
+      - run: |
+          echo "I'm running"
